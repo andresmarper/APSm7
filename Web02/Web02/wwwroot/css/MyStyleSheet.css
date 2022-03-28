@@ -1,0 +1,49 @@
+﻿#foto {
+    width: 100px;
+    margin: 2rem 0;
+    border-radius: 50%;
+  
+}
+
+#imga {
+    width: 20px;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+#cv {
+    background-color: aliceblue;
+}
+
+#avatar {
+    background-color: antiquewhite;
+}
+
+#contacto {
+    background-color: powderblue;
+}
+
+#fondo {
+    background-color: whitesmoke;
+}
+
+.fondo{
+    background-color:darksalmon;
+}
+
+.fondoCurr {
+    background-color:antiquewhite;
+}
+
+
+#bordes {
+    background-color: white;
+    border: 3px solid;
+    border-color: black;
+}
+
+
+#titulo{
+    text-align:center;
+}
+

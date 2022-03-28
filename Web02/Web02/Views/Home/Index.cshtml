@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<header>
+<div >
+ <h1>Mis proyectos</h1>
+    
+    <p>Autor:Andrés Martínez y estudio en  @ViewBag.Vname</p>
+   <!-- <img id="foto" src="~/images/yo.jpg"/>-->
+</div>
+
+<!--1card-->
+<div class="container" >
+    <div class="row">
+<div class="card" style="width: 22rem; text-align:center;">
+  <img class="card-img-top" src="~/images/proyecto.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Mis Proyectos</h5>
+    <p class="card-text">Proyectos aprendidos.</p>
+    <a asp-action="Proyectos" class="btn btn-primary">Ir a ver los proyectos</a>
+  </div>
+</div>
+    <br />
+<!--2card-->
+<div class="card" style="width: 22rem; text-align:center;">
+  <img class="card-img-top" src="~/images/curriculum.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Curriculum</h5>
+    <p class="card-text">Mi Curriculum Personal.</p>
+    <a asp-action="Curriculum" class="btn btn-primary">Ver mi curriculum</a>
+  </div>
+</div>
+<br/>
+<!--3card-->
+   <div class="card" style="width: 22rem; text-align:center; align-content:center;">
+  <img class="card-img-top" src="~/images/contacto.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Contactar</h5>
+    <p class="card-text">Correo electronico personal y numero de telefono.</p>
+    <a asp-action="Contactar" class="btn btn-primary">Contactar</a>
+  </div>
+</div>
+</div>
+</div>
+</header>
+
+<br />
+<body>
+    <div class="col-10" id="bordes">
+<video src="/video/monlau.mp4" width="1000px" height="500px" controls autoplay></video>
+</div>
+
+
+</body>
+<!---------------------------------------------------------------------------------->
